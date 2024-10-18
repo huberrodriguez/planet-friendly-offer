@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camiseta Básica",
+      "price": 19.99,
+      "description": "Camiseta de algodón 100% con corte clásico.",
+      "tags": [120, 200]
+    },
+    {
+      "id": "2",
+      "name": "Pantalones Jean",
+      "price": 39.99,
+      "description": "Pantalones de mezclilla, cómodos y resistentes.",
+      "tags": [300, 150]
+    },
+    {
+      "id": "3",
+      "name": "Zapatillas Deportivas",
+      "price": 59.99,
+      "description": "Zapatillas ligeras ideales para correr o hacer ejercicio.",
+      "tags": [400, 450]
+    },
+    {
+      "id": "4",
+      "name": "Chaqueta de Invierno",
+      "price": 89.99,
+      "description": "Chaqueta acolchada para mantenerte abrigado en invierno.",
+      "tags": [80, 150]
+    },
+    {
+      "id": "5",
+      "name": "Reloj de Pulsera",
+      "price": 49.99,
+      "description": "Reloj elegante con correa de cuero y esfera minimalista.",
+      "tags": [250, 350]
+    },
+    {
+      "id": "6",
+      "name": "Mochila Escolar",
+      "price": 34.99,
+      "description": "Mochila con múltiples compartimentos y diseño ergonómico.",
+      "tags": [10, 70]
+    }
+  ]
+}

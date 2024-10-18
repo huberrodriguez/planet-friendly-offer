@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #3d7bcd;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-items {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* ancho del carrusel */
+    justify-content: center;
+}
+
+.carousel-item {
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-align: center;
+    background: white; /* fondo blanco para cada item */
+}
+
+#newsletter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#subscribeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#validationMessage {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carousel-item {
+        min-width: 100%; 
+        /* ocupa todo el ancho en pantallas pequeñas */
+    }
+}
